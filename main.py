@@ -11,7 +11,6 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.browser)
         self.showMaximized()
 
-
         # nevbar
         navBar = QToolBar()
         self.addToolBar(navBar)
