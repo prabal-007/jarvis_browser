@@ -41,6 +41,7 @@ class MainWindow(QMainWindow):
 
         self.browser.urlChanged.connect(self.update_url)
 
+    
     # navbar2
 
         # navBar2 = QToolBar()
