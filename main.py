@@ -51,8 +51,6 @@ class MainWindow(QMainWindow):
         # home_btn.triggered.connect(self.nevigate_home)
         # navBar2.addAction(home_btn)
 
-
-
     def nevigate_grofied(self):
         self.browser.setUrl(QUrl('http://grofied.com'))
 
